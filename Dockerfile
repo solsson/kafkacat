@@ -1,6 +1,6 @@
 FROM debian:9.6-slim@sha256:f05c05a218b7a4a5fe979045b1c8e2a9ec3524e5611ebfdd0ef5b8040f9008fa
 
-ARG librdkafka_version=v1.0.0-RC3
+ARG librdkafka_version=v1.0.0-RC5
 ARG yajl_version=2.1.0
 
 COPY . /usr/src/kafkacat
