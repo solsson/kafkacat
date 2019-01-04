@@ -1,4 +1,4 @@
-FROM debian:9.6-slim@sha256:f05c05a218b7a4a5fe979045b1c8e2a9ec3524e5611ebfdd0ef5b8040f9008fa
+FROM debian:stretch-slim@sha256:6c31161e090aa3f62b9ee1414b58f0a352b42b2b7827166e57724a8662fe4b38
 
 ARG librdkafka_version=v1.0.0-RC5
 ARG yajl_version=2.1.0
