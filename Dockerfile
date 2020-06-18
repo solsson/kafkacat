@@ -1,8 +1,8 @@
-FROM alpine:3.10
+FROM alpine:3.12
 
 COPY . /usr/src/kafkacat
 
-ENV BUILD_DEPS bash make gcc g++ cmake curl pkgconfig python perl bsd-compat-headers zlib-dev lz4-dev openssl-dev curl-dev
+ENV BUILD_DEPS bash make gcc g++ cmake curl pkgconfig perl bsd-compat-headers zlib-dev lz4-dev openssl-dev curl-dev
 
 ENV RUN_DEPS libcurl lz4-libs ca-certificates
 
